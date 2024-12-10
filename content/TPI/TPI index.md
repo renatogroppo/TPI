@@ -5,7 +5,7 @@ Il Sistema Operativo (SO) è parte del **software di base**, un insieme di progr
 - SO
 - Editor
 - Compilatori
-- Linker
+- [[Linker]]
 - Loader: carica programmi in RAM
 - Debugger
 
@@ -17,7 +17,7 @@ Il Sistema Operativo (SO) è parte del **software di base**, un insieme di progr
 
 ### **2. Interfaccia con l'utente**
 - Fornisce supporto tramite interfacce:
-  - Grafica (GUI)
+  - [Grafica (GUI)](https://it.wikipedia.org/wiki/Interfaccia_grafica)
   - Linea di comando (CUI)
 
 ## **Architettura del SO (Cipolla)**
@@ -44,7 +44,7 @@ I SO moderni sfruttano il parallelismo hardware per:
 
 ### **Definizioni**
 - **Programma:** insieme di istruzioni in memoria di massa.
-- **Processo (task):** istanza di un programma in esecuzione (risiede in RAM).
+- **[[Processi]] (task):** istanza di un programma in esecuzione (risiede in RAM).
 
 ### **Ottimizzazioni**
 - **Multiprogrammazione:** più programmi in memoria.
@@ -53,7 +53,7 @@ I SO moderni sfruttano il parallelismo hardware per:
 
 ---
 
-## **Processi**
+## **[[Processi]]**
 
 ### **Caratteristiche**
 Ogni processo è composto da:
@@ -83,7 +83,7 @@ Ogni processo ha un PCB con:
 
 ---
 
-## **Gestione della memoria**
+## **[[Gestione della memoria]]**
 
 ### **Codice rilocabile**
 - **Rilocazione statica:** indirizzi calcolati al caricamento.
@@ -118,7 +118,7 @@ Ogni processo ha un PCB con:
 ### **Memoria virtuale**
 Permette di caricare solo le parti del programma necessarie.
 
-#### **Paginazione**
+#### **[[Paginazione]]**
 - Memoria divisa in frame (fisici) e pagine (logiche).
 - **Page fault:** avviene quando una pagina non è in RAM e viene caricata dal disco.
 
